@@ -40,9 +40,6 @@ void MyAnalysis::Loop()
 
    Long64_t nentries = fChain->GetEntriesFast();
 
-   int iso_lepton_Selected = nentries;
-   int n_jet_selected      = nentries;
-
    Long64_t nbytes = 0, nb = 0;
    for (Long64_t jentry=0; jentry<nentries;jentry++) {
       Long64_t ientry = LoadTree(jentry);
