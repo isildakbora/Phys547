@@ -1,7 +1,7 @@
 import ROOT
 from ROOT import *
 
-file_names = ["qcd.root", "dy.root", "zz.root", "wz.root", "ww.root", "wjets.root", "ttbar.root", "single_top.root", "data.root", ]
+file_names = ["qcd.root", "zz.root", "wz.root", "ww.root", "wjets.root", "ttbar.root", "single_top.root", "data.root", ]
 
 gSystem.Load("MyAnalysis.C");
 
